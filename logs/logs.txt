@@ -1,0 +1,18 @@
+[2025-05-20 14:22:18] CODE GENERATED:
+people = [{"name": "Alice", "age": 25}, {"name": "Bob", "age": 20}]
+sorted_people = sorted(people, key=lambda x: x["age"])
+print(sorted_people)
+
+OUTPUT:
+[{'name': 'Bob', 'age': 20}, {'name': 'Alice', 'age': 25}]
+------------------------------------------------------------
+
+[2025-05-20 14:23:10] CODE GENERATED:
+def add_numbers(a, b):
+    return a + b
+
+print(add_numbers(3, 5))
+
+OUTPUT:
+8
+------------------------------------------------------------

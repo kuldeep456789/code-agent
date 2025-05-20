@@ -1,0 +1,4 @@
+langchain
+openai
+pyyaml
+langchain_community

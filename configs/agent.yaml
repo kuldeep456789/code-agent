@@ -1,0 +1,21 @@
+agent:
+  name: "LangChainCodeAgent"
+  version: "1.0"
+  supported_languages:
+    - python
+  default_language: python
+
+execution:
+  timeout: 10  # maximum seconds to allow for code execution
+  max_output_length: 1000  # truncate output after this many characters
+  enable_logging: true
+  safe_mode: true  # restricts to non-destructive code (future enhancement)
+
+model:
+  provider: openai
+  model_name: gpt-4
+  temperature: 0.3
+  max_tokens: 1500
+  top_p: 1.0
+  frequency_penalty: 0.0
+  presence_penalty: 0.0
